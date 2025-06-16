@@ -14,7 +14,6 @@
     align-items: center;
     padding: 0 20px;
     color: white;
-    /* border-radius: 40%; */
 }
 
 .nav-input{
@@ -38,7 +37,6 @@
     font-size: 1rem;
     color: black;
     border: none;
-    /* border-radius: 5rem,; */
 }
 
 .nav-input i{
@@ -56,3 +54,16 @@
     width: 1em;
     font-size: 1rem;
 }
+
+#main-content{
+    display: grid;
+    grid-template-columns: 12fr 4fr;
+    /* display: flex;
+    flex-wrap: wrap; */
+    direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+    /* align-items: center; */
+}
+
+
