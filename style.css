@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -19,6 +19,11 @@ body{
   align-items: center;
   padding: 0 20px;
   color: white;
+  font-size: 0.8em;
+}
+
+.nav-container div{
+  font-size: 1em;
 }
 
 .nav-input{
@@ -29,8 +34,13 @@ body{
 
 }
 
+#Search-input{
+  height: 2.8em;
+  border-radius: 5px;
+}
+
 .nav-input #nav-select{
-  height: 2.6em;
+  height: 2.8em;
   width: 2.7em;
   /* background-color: rgb(187, 184, 184); */
   border: none;
@@ -38,7 +48,7 @@ body{
 }
 
 .nav-input input{
-  padding: 0.5rem 40rem 0.5rem 1rem;
+  padding: 0.5rem 50rem 0.5rem 1rem;
   font-size: 1rem;
   color: black;
   border: none;
@@ -46,8 +56,8 @@ body{
 
 .nav-input i{
   color: black;
-  background-color: orange;
-  padding: 0.6rem;
+  background-color: rgba(255, 165, 0, 80%);
+  padding: 1rem;
   text-align: end;
   border-radius: 2rem,;
 }
@@ -60,6 +70,25 @@ body{
   font-size: 1rem;
 }
 
+.nav-container-2{
+  width: 100%;
+  height: 39px;
+  background-color: rgba(0, 0, 0, 76%);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.nav-container-2 p{
+  font-size: 0.8em;
+  margin-left: 1em;
+  font-weight: 600;
+}
+
+
+/* Body div 1 & 2 */
 #main-content{
   padding-left: 10em;
   padding-right: 10em;
@@ -128,3 +157,53 @@ body{
 }
 
 
+
+
+/* Body div 3 & 4 */
+
+#oneline-content{
+  padding-left: 11em ;
+  padding-right: 11em;
+  padding-bottom: 1.5em;
+}
+
+.related-content{
+  background-color: white;
+  display: block;
+  padding: 1em;
+  overflow-x: hidden;
+}
+
+.related-content a{
+  text-decoration: none;
+  margin-left: 2em;
+  font-size: 1rem;
+}
+
+.related-content strong{
+  font-size: 2em;
+}
+
+.related-each-content div{
+  margin-right: 3em ;
+}
+
+.related-each-content button{
+  flex: 0 0 auto; /* Prevent shrinking */
+  height: 10em;
+  width: 5em;
+  margin-top: 2em;
+  background-color: transparent;
+  border: none;
+  box-shadow:
+  0 -0.5em 5px -0.5em gray,             /* top */
+  0 0.5em 0.5em -0.5em gray,            /* bottom */
+  -5px 0 5px -5px gray;                /* left */
+}
+
+.div5{
+  padding-top: 22em;
+}
+.kurta-div p{
+  overflow: hidden;
+}
